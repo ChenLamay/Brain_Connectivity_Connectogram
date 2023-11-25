@@ -36,7 +36,7 @@ This project utilizes the MNE-Python library to visualize brain connectivity usi
    - Constructs a circular layout for brain regions using MNE-Python's `circular_layout` function.
    - Utilizes `plot_connectivity_circle` to create a connectivity visualization based on the processed data.
    - The visualization uses a color scheme to represent the connectivity strength between different brain regions. The lower the pvalue 
-  	is, the stronger the color shade, indicating a higher significance in the value of number of tracts between two brain regions.
+  	is, the stronger the shade of the color, indicating a higher significance in the value of "number of tracts" between two brain regions.
 
 ## Notes
 
