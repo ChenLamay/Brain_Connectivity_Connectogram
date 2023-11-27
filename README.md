@@ -4,7 +4,7 @@
 
 This project utilizes the MNE-Python library to visualize brain connectivity using a circular layout. The visualization represents the connectivity between different brain regions based on experimental and control data of mice with autism, highlighting regions with significant differences in connectivity.
 
-## Requirements
+## Dependencies
 
 - Python 
 - MNE-Python
@@ -12,7 +12,7 @@ This project utilizes the MNE-Python library to visualize brain connectivity usi
 - Pandas
 - NumPy
 
-## Project Structure
+# #Dataset Overview
 
 - **Brain_region_names.xlsx:** Excel file containing a list of brain areas.
 - **results_experimental.xlsx:** Excel file with experimental data.
@@ -38,7 +38,4 @@ This project utilizes the MNE-Python library to visualize brain connectivity usi
    - The visualization uses a color scheme to represent the connectivity strength between different brain regions. The lower the pvalue 
   	is, the stronger the shade of the color, indicating a higher significance in the value of "number of tracts" between two brain regions.
 
-## Notes
 
-- Ensure all required data files are in the correct format and located in the project directory before running the script.
-- Experiment with different parameters in the visualization script (such as colormap, node colors, etc.) to explore variations in the visualization.
